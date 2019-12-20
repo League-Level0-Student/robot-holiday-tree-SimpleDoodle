@@ -42,7 +42,7 @@ int turnAmount = 175;
         //  Set the robot's angle so it faces right
 rob.setAngle(90);
         //  Make a for loop that repeats 11 times and put the rest of the code that draws branches inside the for loop
-   for (int i = 0; i < 200; i++) {
+   for (int i = 0; i < 20; i++) {
 	rob.move(treeWidth);
 	rob.turn(turnAmount);
 	treeWidth *= scale;
